@@ -5,47 +5,116 @@ body * {
 li {
     list-style-type: none;
   }
+
+.header a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #CCC5B9;
+}
+
 html, body {
     width: 100%;
     height: 100%;
     }
-body {
+
+body  {
     margin: 0;
     padding: 0;
 }
+
+#logo{
+    font-family: 'Gruppo', sans-serif;
+    font-size: 45px;
+    color: #EB5E28;
+    text-shadow: rgb(167, 28, 28) 1px 0 5px;
+    font-weight: 700;
+}
+
 .header{
     display: flex;
+    padding: 10px 0;
+    background-color: #252422;
 }
 .left{
-    margin-left: 40px;
-    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
 }
 .right{
     display: flex;
     justify-content: right;
     flex: 1;
-    font-size: 7px;
+    font-size: 13px;
     gap: 10px;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 20px;
 }
+
+.text h1{
+    color: #FFFCF2;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.text p{
+    color: #CCC5B9;
+    font-family: 'Titillium Web', sans-serif;
+}
+
 .text{
     padding-left: 1cm;
     width: 100%;
     max-width: 15cm;
-    gap: 10px;
+    margin: 0 0 0 5%;
 }
 .bodymid{
     display: flex;
-    justify-content: space-between;
-    padding-right: 1cm;
-    gap: 1cm;
+    justify-content: space-around;
+    padding-right: 10%;
+    gap: 4cm;
 }
 .container{
-    background-color: #C2B280;
-    padding-bottom: 10px;
+    background-color: #252422;
+    padding-bottom: 4%;
 }
-.header3{
+
+.button button{
+    color: rgb(245, 243, 243);
+    background-color: #403D39;
+    border-color: #403D39;
+    padding:  7px 15px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    text-shadow: 2px 2px 4px #000000;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 5px #EB5E28;
+}
+
+.button button:active{
+    background-color: #403D39;
+    box-shadow: 0 0px;
+    transform: translateY(4px);
+}
+
+
+
+    /* RANDOM INFO */
+
+h2{
+    margin-top: 0;
+    padding-top: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+.containerinfo{
+    background-color: #EB5E28;
+
+}
+
+.header2{
     text-align: center;
 }
 .boxes{
@@ -57,14 +126,45 @@ body {
 }
 .box{
      width: 4cm;
-    background-color: red;
+    background-color: rgb(226, 226, 226);
     height: 4cm;
 }
 .boxes li{
     max-width: 4cm;
     text-align: center;
 }
+.quote{
+    text-align: center;
+    padding: 50px 25%;
+    
 
+}
+.quotename{
+    display: flex;
+    justify-content: end;
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.signup{
+    max-width: 13cm;
+}
+.buttonsign{
+    display: flex;
+    justify-content: end;
+    
+}
+.bgsec{
+
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
 
 
 
