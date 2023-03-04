@@ -1,5 +1,5 @@
 
-body * {
+bod * {
     border: 1px solid black;
 }
 li {
@@ -45,7 +45,7 @@ body  {
     justify-content: right;
     flex: 1;
     font-size: 13px;
-    gap: 10px;
+    gap: 40px;
     align-items: center;
     margin-right: 20px;
 }
@@ -65,14 +65,15 @@ body  {
 .text{
     padding-left: 1cm;
     width: 100%;
-    max-width: 15cm;
+    max-width: 13cm;
     margin: 0 0 0 5%;
 }
 .bodymid{
     display: flex;
     justify-content: space-around;
     padding-right: 10%;
-    gap: 4cm;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .container{
     background-color: #252422;
@@ -103,15 +104,17 @@ body  {
     /* RANDOM INFO */
 
 h2{
-    margin-top: 0;
+    margin: 0;
     padding-top: 10px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 30px;
+    padding-bottom: 60px;
 }
 
 .containerinfo{
-    background-color: #EB5E28;
-
+    background-color: #f14400b6;
+    padding: 50px 0px 70px ;
+    
 }
 
 .header2{
@@ -123,47 +126,123 @@ h2{
     align-items: center;
     flex-wrap: wrap;
     gap: 70px;
+    
 }
 .box{
      width: 4cm;
     background-color: rgb(226, 226, 226);
     height: 4cm;
+    border-radius: 50px;
+
 }
+
+.box img{
+    width: 4cm;
+    height: 4cm;
+    object-fit: cover;
+    border-radius: 50px;
+}    
+
 .boxes li{
     max-width: 4cm;
     text-align: center;
 }
+
+.boxes p{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+    margin: 0;
+    padding-top: 6%;
+}
+    /* QUOTE */
+
 .quote{
     text-align: center;
     padding: 50px 25%;
-    
-
+    background-color: #CCC5B9;
+    color: #000000;
+    font-family: "Caveat";
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: #ffffff 1px 1px 1px;
 }
+
+
 .quotename{
     display: flex;
     justify-content: end;
+    color: #252422;
+    font-family: "Caveat";
+    font-size: 30px;
+    font-weight: lighter;
 }
+
+    /* SIGN */
+
 .sign{
     display: flex;
     justify-content: center;
     gap: 20px;
-    padding: 20px;
+    padding: 50px 0px;
+    background-color: #252422;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 .signup{
-    max-width: 13cm;
+    max-width: 900px;
+    margin: 0;
+    color: #252422;
+    
 }
 .buttonsign{
     display: flex;
     justify-content: end;
-    
-}
-.bgsec{
+    font-family: 'Titillium Web', sans-serif;
 
 }
+.bgsec{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #CCC5B9;
+    border-radius: 20px;
+}
+
+.buttonsign button{
+    color: #CCC5B9;
+    background-color: #252422;
+    border-color: #CCC5B9;
+    padding:  7px 15px;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 7px;
+    box-shadow: 0 5px #f14400b6;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
+.buttonsign button:active{
+    background-color: #f14400b6;
+    box-shadow: 0 0;
+    transform: translateY(4px);
+    color: #252422;
+}
+
+    /* COPYRIGHT */
+
 .copyright{
     display: flex;
     justify-content: center;
     padding: 15px;
+    background-color: #403D39;
+    margin-top: 0px;
+    padding: 20px 10px;
+    margin-bottom: 0;
+    color: #FFFCF2;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
